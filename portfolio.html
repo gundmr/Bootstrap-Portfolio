@@ -1,6 +1,8 @@
+<!-- BOOTSTRAP -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="assets/CSS/reset.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,42 +10,97 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/CSS/style1.css">
     <title>Columbia Gorge Holly Farms</title>
+
+    <!-- Bootstrap link -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   
 </head>
 <body>
-    <div class="wrapper">
+<div class="container">
 
 <!-- Navigation-->
-    <nav class="main-nav">
+    <div class="row">
+        <div class="col-12">    
+<!-- Image and text -->
+<nav class="navbar navbar-dark bg-dark">
+        
         <ul>
-            <li><a class="home_logo" href="#home">CGH
-                <i class="fas fa-holly-berry fa-1x"></i>
-                </a></li>  
-            <li></li>
-            <li><a class="nav_icons" href="index.html#About">About</a></li>
-            <li><a class="nav_icons" href="portfolio.html#Portfolio">Portfolio</a></li> 
-            <li><a class="nav_icons" href="contact.html#Contact">Contact</a></li>
+            <li class="nav-item logo">
+                <a class="navbar-brand" href="#">
+                        <i class="fas fa-mask" width="30" height="30" class="d-inline-block align-top">
+                        The Hamburgler
+                      </i>
+                      </a>
+                    </li>
+       
+                    <a class="navbar-brand" href="portfolio.html#Portfolio">Menu</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html#About">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact.html#Contact">Contact</a>
+                        </li>
         </ul>
-    </nav>  
+          
+</nav>
+</div>   
+</div>
+</div>
 
 <!-- Portfolio-->
+
+<div class="row">
+    <div class="col-12">  
 <h2>Portfolio</h2>    
-<section class ="portfolio">
-        <div class="p-one">
-            <p>Bring Your Family on a Unique Holiday Adventure</p>
+    </div>
+</div>
+
+        <div class="row">
+                <div class="col-6">
+                    <div class="p-one">
+                    <p>Original Burger</p>
+                    </div>
+                </div>
+        
+
+                <div class="col-6">
+                <div class="p-two">
+                <p>Jalapeno Burger</p>
+                </div>
+            </div>
         </div>
-        <div class="p-two">
-            <p>Find the Perfect Gift Accessory</p>
+        
+
+        <div class="row">
+                <div class="col-6">
+                    <div class="p-three">
+                    <p>Squid Ink Garlic Burger</p>
+                    </div>
+                </div>
+        
+                <div class="col-6">
+                    <div class="p-four">
+                    <p>Bacon Garlic Cheese Fries</p>
+                    </div>
+                </div>
         </div>
-        <div class="p-three">
-            <p>Meet Our Holiday Pooch</p>
+
+        <div class="row">
+                <div class="col-6">
+                    <div class="p-five">
+                    <p>Bratwurst and Brews</p>
+                    </div>
+                </div>
         </div>
-        <div class="p-four">
-            <p>Come Pick Your Own Bouquet</p>
-        </div>
-        <div class="p-five">
-            <p>Find Us in Local Botiques Across Portland</p>
-        </div>
-    </section>
+
+
 
 <!-- Footer-->
     <footer>
@@ -51,8 +108,8 @@
         </p>
     </footer>
 
-<!-- Wrapper Ends -->
-    </div>
+<!-- Container Ends -->
+</div>
 
 </body>
 </html>
