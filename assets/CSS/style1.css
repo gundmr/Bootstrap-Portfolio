@@ -4,14 +4,15 @@
         --light: rgb(235, 235, 235);
         --template-image: url(background/woods7.jpg) 100%;
         --accent1: rgb(0, 128, 100);
-        --accent2: rgba(0, 0, 0, 0.637);
+        --accent2: rgba(36, 33, 33, 0.637);
         --shadow: # 0 1px 5px rgba(104, 104, 104, 0.8);
-        --about-image: url(Images/sign.jpg) 100%;
+        --about-image: url(Images/fries-home.jpg) 30% center;
         --profile-image1:url(Images/burger-1.jpg) 100%;
         --profile-image2:url(Images/burger-2.jpg) 100%;
         --profile-image3:url(Images/burger-3.jpg) 100%;
         --profile-image4:url(Images/fries-1.jpg) 100%;
         --profile-image5:url(Images/hotdog-1.jpg) 100%;
+    
     }
     
 html {
@@ -87,12 +88,13 @@ h2 {
     
     /* about */
     .info {
-        background: var( --primary);
+        background: var(--about-image);
         box-shadow: var(--shadow);
         display: grid;
         grid-gap: 30px;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         padding: 30px 30px;
+        font-family: Arial, Helvetica, sans-serif;
     }
     
     
@@ -116,8 +118,8 @@ h2 {
     .portfolio p {
         font-size: 16px;
         margin-bottom: 0;
-        color: var(--light);
-        background-color: var(--accent2);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.575);
         text-align: center;
         } 
     
@@ -179,7 +181,7 @@ h2 {
     
     /* contact form wrapper*/
     .contact_form {
-        background: var( --primary);
+        background: rgb(189, 223, 215);
         box-shadow: var(--shadow);
         display: grid;
         grid-gap: 30px;
