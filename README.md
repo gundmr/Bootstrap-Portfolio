@@ -1,5 +1,5 @@
 # Bootstrap Portfolio
-Multiple choice trivia game - players will have a limited amount of time to answer each question. 
+Website built using bootstrap 
 
 ## Getting Started
 View applicaiton at: https://gundmr.github.io/Bootstrap-Portfolio/
